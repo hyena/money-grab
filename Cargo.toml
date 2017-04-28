@@ -1,0 +1,11 @@
+[package]
+name = "money-grab"
+version = "0.1.0"
+authors = ["hyena <hyena@users.noreply.github.com>"]
+
+[dependencies]
+chrono = "0.3.0"
+diesel = { version = "0.11.0", features = ["postgres", "chrono"] }
+diesel_codegen = { version = "0.11.0", features = ["postgres", "chrono"] }
+dotenv = "0.8.0"
+
